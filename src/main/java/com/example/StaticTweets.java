@@ -28,6 +28,11 @@ public class StaticTweets {
      *
      * @return String that will be returned as an application/json response.
      */
+	 /**
+     * Method handling HTTP GET requests. The returned object will be sent
+     * to the client as "text/plain" media type.
+     *
+     */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getIt() {
